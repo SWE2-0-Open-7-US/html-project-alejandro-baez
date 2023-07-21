@@ -42,3 +42,31 @@ footer{
 
 } 
 
+#entire-bio-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-img-section{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 3rem;
+}
+
+#pfp-img{
+    width:250px;
+    height: 250px;
+}
+
+#bio-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#bio-section p{
+    width:30%
+}
