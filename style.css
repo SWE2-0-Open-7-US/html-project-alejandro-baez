@@ -2,19 +2,30 @@ body{
     margin: 0;
 }
 
+header{
+    border-bottom: solid black;
+}
+
 
 .row{
     display: flex;
     width:100%;
 }
 
-ul{
+.row ul{
     display: flex;
     justify-content: space-around;
     width: 100%;
     list-style-type: none;
 
 }
+
+.social-media{
+    width: 50px;
+    height:50px;
+}
+
+
 
 a{
     text-decoration: none;
@@ -24,8 +35,10 @@ a{
 footer{
     position: absolute;
     bottom:0;
+    border-top: solid black
 
     /* width: 100%; */
     /* padding: 1px 10px; */
 
 } 
+
