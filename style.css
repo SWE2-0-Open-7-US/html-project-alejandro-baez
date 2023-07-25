@@ -147,3 +147,22 @@ footer{
     align-items: center;
     width: 700px;
 }
+
+
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.tech-stack-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tech-stack-logos{
+    width: 300px;
+
+}
