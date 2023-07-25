@@ -141,3 +141,9 @@ footer{
     width: 400px;
     margin: 10px;
 }
+
+.proj-info{
+    display: flex;
+    align-items: center;
+    width: 700px;
+}
