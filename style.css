@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    border-bottom: solid black;
+}
+
+
+.row{
+    display: flex;
+    width:100%;
+}
+
+.row ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+
+}
+
+.social-media{
+    width: 50px;
+    height:50px;
+}
+
+
+
+a{
+    text-decoration: none;
+
+}
+
+footer{
+    /* position: absolute;
+    bottom:0; */
+    margin-top: auto;
+    border-top: solid black
+
+    /* width: 100%; */
+    /* padding: 1px 10px; */
+
+} 
+
+#entire-bio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* justify-content: flex-end; */
+}
+
+#profile-img-section{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 5rem;
+}
+
+#pfp-img{
+    width:250px;
+    height: 250px;
+}
+
+#bio-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#bio-section p{
+    width:30%
+}
+
+
+.company-logo-img{
+    height:75px;
+    width: 100px;
+}
+
+#entire-experience-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.company-timeline{
+    display: flex;
+    border: solid black;
+    width: 300px;
+    height: 150px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.company-logo{
+    display: flex;
+    align-items:center ;
+}
+
+#entire-proj-section{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+    margin-top: 2rem;
+}
+
+.single-proj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj-images-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.proj-img{
+    height: 275px;
+    width: 400px;
+    margin: 10px;
+}
+
+.proj-info{
+    display: flex;
+    align-items: center;
+    width: 700px;
+}
+
+
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.tech-stack-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tech-stack-logos{
+    width: 300px;
+
+}
